@@ -1,0 +1,14 @@
+h2{
+  color: burlywood;
+}
+
+.title:hover{
+  color: red;
+
+}
+.subtitle{
+  color: blue;
+}
+#contact-us {
+  color: green;
+}
