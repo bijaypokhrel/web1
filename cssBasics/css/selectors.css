@@ -1,0 +1,70 @@
+h2:hover {
+  /* pseudo selector*/
+  color: burlywood;
+}
+
+.title {
+  color: red;
+}
+.subtitle {
+  color: blue;
+}
+#contact-us {
+  color: green;
+}
+
+/* pseudo selectors*/
+/* li:first-child{
+  color: steelblue;
+}
+ol:only-child{
+  color: purple;
+}
+li:last-child{
+  color: antiquewhite;
+}
+li:nth-child(3){
+  color: brown;
+} */
+
+/* pseudo selector used in link*/
+/* #google-link:link{
+  color: blue;
+}
+#google-link:visited{
+  color: red;
+} */
+
+/* advanced selectors*/
+h2 + a {
+  /* a followed by h2*/
+  color: blue;
+}
+textarea ~ button {
+  /* textarea followed by button sharing same parent*/
+  color: purple;
+}
+ul > li {
+  /* direct child selector*/
+  counter-reset: blue;
+}
+ul li {
+  /* descendent child selector*/
+  color: green;
+}
+
+/* h2[class = subtitle]  attribute selectors */
+img[src*='../img/'] {
+  border: 5px solid black;
+}
+/* selects all images form image folder*/
+
+/* whitespace attribute selector */
+
+h2[class~='article-subtitle'] {
+  background: red;
+}
+
+/* h2[class|='article-subtitle'] {
+  background: red;
+}*/
