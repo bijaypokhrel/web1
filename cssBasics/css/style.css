@@ -1,5 +1,32 @@
 body {
-  background: #d1e6e2;
+  background: linear-gradient(
+    to bottom,
+    rgb(216, 230, 230),
+    rgba(216, 230, 230, 0)
+  );
+  /* background: #d1e6e2; */
+  /* background: url('https://www.oyorooms.com/blog/wp-content/uploads/2018/08/Featured-image-min.jpg'); */
+  /* background: url('../img/cornfield.jpg'); */
+  /* background-image: url('../img/cornfield.jpg'); */
+  /* background-color: #d1e6e2; */
+  /* background-size: contain or contain; */
+  /* background-repeat: repeat or no-repeat; */
+}
+#service-image {
+  height: 400px;
+  width: 70%;
+  /* background: url('https://www.oyorooms.com/blog/wp-content/uploads/2018/08/Featured-image-min.jpg'); */
+  /* background-size: cover; */
+  /* background: linear-gradient(to right, red, green, steelblue, blue); */
+  /* background: linear-gradient(
+    to bottom right,
+    rgb(214, 34, 21),
+    rgba(214, 34, 21, 0) */
+  /* background: linear-gradient(215deg,
+   rgb(214, 34, 21), rgba(214, 34, 21, 0)); */
+  /* background-size: cover; */
+  /* background: radial-gradient(ellipse, red 20%, blue 40%, green 60%); */
+  background: radial-gradient(circle, red 20%, blue 40%, green 60%);
 }
 
 #title {
