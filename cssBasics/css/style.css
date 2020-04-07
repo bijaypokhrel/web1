@@ -138,6 +138,12 @@ body {
   font-weight: 600;
   font-size: 20px;
   color: white;
+  transform: translate(20px, 40px);
+  transform: scale(1.2);
+  transform: rotate(-45deg);
+  transform: skewX(45deg);
+  transform: skewY(-45deg);
+  /* transform: matrix(1.2, -0.45, 0.45, 1.2, 20, 40); */
   transition: all 2ms ease-in-out 700ms;
   -webkit-transition: all 2ms ease-in-out 700ms;
   -moz-transition: all 2ms ease-in-out 700ms;
@@ -146,4 +152,39 @@ body {
 .submit-button:hover {
   background: rgb(147, 187, 255);
   padding: 20px 30px;
+}
+
+#about-me {
+  /* animation-name: red-to-black; */
+  /* animation-duration: 4s; */
+  /* animation-timing-function: linear; */
+  /* animation-delay: 3s; */
+  /* animation-delay: -3s; */
+  /* animation-iteration-count: 2; */
+  /* animation-iteration-count: infinite; */
+  /* animation-direction: reverse; */
+  /* animation-direction: alternate; */
+  /* animation-direction: alternate-reverse; */
+  animation: red-to-black 4s linear 3s 2 alternate-reverse;
+  -webkit-animation: red-to-black 4s linear 3s 2 alternate-reverse;
+  -moz-animation: red-to-black 4s linear 3s 2 alternate-reverse;
+  -o-animation: red-to-black 4s linear 3s 2 alternate-reverse;
+  -ms-animation: red-to-black 4s linear 3s 2 alternate-reverse;
+}
+
+@keyframes red-to-black {
+  /* from{background: red;}
+  to{background: black;} */
+  0% {
+    background: red;
+    transform: translate(0px, 0px);
+  }
+  50% {
+    background: yellow;
+    transform: translate(10px, 10px);
+  }
+  100% {
+    background: black;
+    transform: translate(20px, 20px);
+  }
 }
